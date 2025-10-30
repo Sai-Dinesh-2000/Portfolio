@@ -13,91 +13,134 @@
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#certifications">Certifications</a></li>
       </ul>
     </nav>
+    <button id="theme-toggle">🌙 Dark Mode</button>
   </header>
 
+  <!-- HOME -->
   <section id="home">
     <img src="images/profile.jpg" alt="Venkata Sai Dinesh Voora" class="profile-pic" />
     <h1>Hi, I'm Venkata Sai Dinesh Voora</h1>
     <p>Database Administrator & Aspiring Data Engineer</p>
-    <p>4916 W 108th ter APT 713,Overland Park, KS | <a href="mailto:vooravenkatasaidinesh@gmail.com">vooravenkatasaidinesh@gmail.com</a> | 
+    <p>Overland Park, KS | 
+      <a href="mailto:vooravenkatasaidinesh@gmail.com">vooravenkatasaidinesh@gmail.com</a> | 
       <a href="https://www.linkedin.com/in/venkata-sai-dinesh-voora-557126309" target="_blank">LinkedIn</a>
     </p>
   </section>
 
+  <!-- ABOUT -->
   <section id="about">
     <h2>About Me</h2>
     <p>
-      Detail-oriented and motivated Database Administrator and aspiring Data Engineer with over 2 years of
-      experience in managing, optimizing, and automating database systems at Wipro. Skilled in SQL, Python,
-      data modeling, and ETL development, with hands-on experience across Oracle, MySQL, MongoDB, and SQL Server.
-      Proficient in cloud platforms such as Azure, AWS, and BigQuery, with a strong foundation in database 
-      administration, performance tuning, and data warehousing concepts. Currently pursuing a Master’s in 
-      Computer Science with a 3.8 GPA, passionate about building scalable, high-performance data solutions.
+      Detail-oriented and motivated Computer Science graduate with over 2 years of experience in
+      database management and software development. Skilled in SQL, Python, and MATLAB, with a
+      solid foundation in data modeling, algorithms, and software engineering principles.
+      Experienced in designing and optimizing data workflows, automating processes, and developing
+      high-performance solutions using cloud platforms such as AWS and Azure.
+    </p>
+    <p>
+      Proficient in Oracle, MySQL, MongoDB, and SQL Server, with a passion for building scalable
+      systems and applying analytical thinking to solve complex technical problems. Currently pursuing
+      a Master’s in Computer Science (GPA: 3.8) at the University of Central Missouri.
     </p>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Professional Experience</h2>
     <div class="project">
-      <h3>Modern Data Warehouse (SQL Server, Medallion Architecture)</h3>
-      <p>Designed and implemented a multi-layer data warehouse (Bronze/Silver/Gold) using SQL Server. Built ETL pipelines 
-      to ingest and transform ERP & CRM data, modeled star schema for analytics, and documented architecture using Draw.io and Notion.</p>
-    </div>
-
-    <div class="project">
-      <h3>Gym Management System (Django, MongoDB)</h3>
-      <p>Developed a full-stack web app with modules for memberships, payments, and scheduling. Used Django for backend logic and 
-      MongoDB for NoSQL data modeling, enabling efficient CRUD operations and scalability.</p>
-    </div>
-
-    <div class="project">
-      <h3>Wedding Management System (PHP, MySQL, AWS RDS)</h3>
-      <p>Built a cloud-hosted web application that automates wedding planning operations. Integrated PHP backend with 
-      AWS-hosted MySQL database and used Bootstrap for a responsive front end.</p>
-    </div>
-
-    <div class="project">
-      <h3>University Management System (MySQL, ERD Design)</h3>
-      <p>Designed a normalized relational schema for managing university operations including students, faculty, and courses.
-      Created ER diagrams and optimized SQL queries for high performance.</p>
+      <h3>Oracle Database Administrator | Wipro Technologies – Chennai, India (Aug 2021 – Jul 2023)</h3>
+      <ul>
+        <li>Managed production and UAT Oracle databases ensuring high availability and performance.</li>
+        <li>Performed installation, configuration, upgrades, and patching to maintain optimal performance.</li>
+        <li>Implemented RMAN backup/recovery and Data Guard (active/physical standby) for disaster recovery.</li>
+        <li>Monitored and tuned SQL queries, indexes, and storage for efficiency.</li>
+        <li>Handled tablespace/user management, cloning, and migration activities.</li>
+        <li>Collaborated with developers to optimize queries and resolve performance issues.</li>
+      </ul>
     </div>
   </section>
 
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Key Projects</h2>
+
+    <div class="project">
+      <h3>Modern Data Warehouse | SQL Server, Medallion Architecture</h3>
+      <p>Designed and implemented a multi-layer data warehouse using Bronze, Silver, and Gold layers. Built ETL pipelines for ERP & CRM data, performed data cleansing, and modeled fact/dimension tables for analytics. Documented architecture using Draw.io and Notion.</p>
+    </div>
+
+    <div class="project">
+      <h3>Gym Management System | Django, MongoDB</h3>
+      <p>Developed a full-stack web app with modules for memberships, payments, and scheduling. Implemented CRUD operations using MongoDB and Django for scalable NoSQL data management.</p>
+    </div>
+
+    <div class="project">
+      <h3>Wedding Management System | PHP, MySQL, AWS RDS</h3>
+      <p>Built a full-stack web application automating wedding planning tasks using PHP and AWS-hosted MySQL database. Integrated Bootstrap for a responsive front end.</p>
+    </div>
+
+    <div class="project">
+      <h3>University Management System | MySQL, ERD Design</h3>
+      <p>Designed a normalized relational schema for managing university data. Created ER diagrams, optimized SQL queries, and implemented 3NF normalization for efficiency.</p>
+    </div>
+
+    <div class="project">
+      <h3>Removing Rain and Snow in a Single Image | MATLAB</h3>
+      <p>Developed an image restoration model using guided filtering to remove rain and snow distortions from images, improving visual clarity for vision-based applications.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
   <section id="skills">
-    <h2>Technical Skills</h2>
+    <h2>Core Skills</h2>
     <ul class="skills-list">
-      <li><strong>Databases:</strong> Oracle (11g/12c/19c), MySQL, SQL Server, MongoDB, BigQuery</li>
-      <li><strong>Data Engineering:</strong> ETL/ELT Pipelines, Data Modeling (Star/Snowflake), Medallion Architecture</li>
-      <li><strong>Cloud Platforms:</strong> Azure, AWS, Google Cloud</li>
-      <li><strong>Database Administration:</strong> RMAN, Data Guard, Backup/Recovery, Migration, Patching, Performance Tuning</li>
-      <li><strong>Programming:</strong> Python, SQL, JUnit, Mockito</li>
-      <li><strong>Tools:</strong> Terraform, Git, Linux, Oracle Enterprise Manager (OEM)</li>
-      <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+      <li>Databases: Oracle, MySQL, SQL Server, MongoDB, BigQuery</li>
+      <li>Data Engineering: ETL/ELT Pipelines, Data Cleansing, Medallion Architecture</li>
+      <li>Cloud: Azure, AWS, Google Cloud</li>
+      <li>DBA: RMAN, Data Guard, Backup/Recovery, Migration, Patching, Performance Tuning</li>
+      <li>Programming: Python, SQL, MATLAB, JUnit, Mockito</li>
+      <li>Tools: Git, Terraform, Linux, Oracle Enterprise Manager (OEM)</li>
+      <li>Web: HTML, CSS, JavaScript, LLM Integration</li>
     </ul>
   </section>
 
+  <!-- EDUCATION -->
   <section id="education">
     <h2>Education</h2>
-    <p><strong>Master of Science in Computer Science</strong> — University of Central Missouri, MO (2023–2025) | GPA: 3.8</p>
-    <p><strong>Bachelor of Engineering in Electronics and Communication</strong> — QIS College of Engineering and Technology, India (2017–2021) | GPA: 8.8</p>
+    <p><strong>Master of Science (M.S.), Computer Science</strong> — University of Central Missouri, MO (Aug 2023 – May 2025) | GPA: 3.8</p>
+    <p><strong>Bachelor of Engineering, Electronics and Communication</strong> — QIS College of Engineering and Technology, India (Jul 2017 – Jul 2021) | GPA: 8.8</p>
   </section>
 
+  <!-- CERTIFICATIONS -->
   <section id="certifications">
     <h2>Certifications</h2>
     <ul>
       <li>Cloud Azure Administrator – Wipro (2022)</li>
       <li>Database Administrator Certification – Wipro (2022)</li>
       <li>ACME FUN CRM Basics 100 – Wipro (2022)</li>
+      <li>MATLAB Onramp – MathWorks (2020)</li>
       <li>Deep Learning Certification – MathWorks (2020)</li>
       <li>Advanced Python Programming – DataTeach Labs (2020)</li>
     </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="response"></p>
   </section>
 
   <footer>
